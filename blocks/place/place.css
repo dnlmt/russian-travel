@@ -1,0 +1,29 @@
+.place {
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(440px, 484px));
+    gap: 48px 40px;
+}
+
+.place:not(:last-child) {
+    margin: 0 0 80px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        justify-content: center;
+        grid-template-columns: repeat(2, minmax(440px, 484px));
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin: 0 0 50px 0;
+        justify-content: center;
+        grid-template-columns: repeat(1, 100%);
+        gap: 32px;
+    }
+}

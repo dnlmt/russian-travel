@@ -1,0 +1,14 @@
+.intro {
+    margin: 92px 0 0 148px;
+    padding: 0;
+    color: #fff;
+    max-width: 690px;
+    margin-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 88px auto 0;
+        max-width: calc(100% - 48px);
+    }
+}

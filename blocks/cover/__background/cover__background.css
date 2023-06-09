@@ -1,0 +1,14 @@
+.cover__background {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
