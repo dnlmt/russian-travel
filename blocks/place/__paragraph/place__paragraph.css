@@ -7,9 +7,20 @@
     line-height: 163%;
 }
 
-@media screen and (max-width: 1024px) {
+.place__paragraph:last-child {
+    margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media (max-width: 767px) {
     .place__paragraph {
         max-width: calc(100% - 16px);
-        margin: 0 auto 26px;
+        margin: 0 auto 25px;
     }
 }

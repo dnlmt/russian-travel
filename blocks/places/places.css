@@ -1,10 +1,22 @@
 .places {
     margin: 92px auto 0;
     padding: 0;
-    max-width: 1000px;
+    max-width: 984px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1279px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .places {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
     .places {
         max-width: 100%;
     }

@@ -7,16 +7,15 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1279px){
     .lead {
         margin: 48px auto 0;
-        max-width: calc(100% - 96px);
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .lead {
-        margin: 48px auto 0;
         max-width: 100%;
     }
 }

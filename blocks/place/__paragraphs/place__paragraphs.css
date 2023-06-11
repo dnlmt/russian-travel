@@ -1,5 +1,10 @@
-.place__paragraphs.css {
+.place__paragraphs {
     margin: 0;
     padding: 0;
 }
 
+@media (max-width: 767px) {
+    .place__paragraphs {
+        margin: 0 16px;
+    }
+}

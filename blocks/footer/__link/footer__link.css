@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+.footer__link:last-child {
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) {
     .footer__link {
         font-size: 24px;

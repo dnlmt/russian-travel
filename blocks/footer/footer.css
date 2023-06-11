@@ -3,11 +3,24 @@
     padding: 0 0 24px 0;
     display: flex;
     max-width: 1184px;
+    min-width: 320px;
     justify-content: space-between;
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1279px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
     .footer {
         margin: 64px 0 0 16px;
         flex-direction: column;
