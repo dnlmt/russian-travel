@@ -9,11 +9,6 @@
     text-decoration: none;
 }
 
-.header__lang-link:first-child {
-    margin-right: 18px;
-    border-bottom: #fff 1px solid;
-}
-
 @media screen and (max-width: 320px){
     .header__lang-link {
         font-size: 18px;

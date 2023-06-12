@@ -31,4 +31,8 @@
         grid-template-columns: repeat(1, 100%);
         gap: 32px;
     }
+
+    .place:not(:last-child) {
+        margin: 0 0 50px 0;
+    }
 }
